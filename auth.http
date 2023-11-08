@@ -1,0 +1,24 @@
+###
+POST http://localhost:3000/auth/register HTTP/1.1
+Content-Type: application/json
+
+
+{
+    "email" : "zafarii@npco.net",
+    "username" : "mehrnezhadi",
+    "password" : "123456",
+    "mobile" : "09125400840",
+    "confirm_password" : "123456"
+
+}
+
+###
+POST  http://localhost:3000/auth/login HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{$dotenv TOKEN}}
+
+{
+    "username" : "mehrnezhadi",
+    "password" : "123456"
+
+}
