@@ -8,7 +8,7 @@ export const authValidatorMapper=(req , res , next)=>{
         
     });
     if(Object.keys(err).length>0){
-        res.json({
+       return res.json({
             statusCode: 400,
             error : err
         })

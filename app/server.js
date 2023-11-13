@@ -22,7 +22,7 @@ class Application {
     const __dirname = url.fileURLToPath(new URL('.',import.meta.url))
     this.#app.use(express.json());
     this.#app.use(express.urlencoded({ extended: true }));
-    this.#app.use(express.static(path.join(__dirname,"...","public")))
+    this.#app.use(express.static(path.join(__dirname,"..","public")))
   }
 
   createServer(PORT) {

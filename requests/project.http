@@ -1,0 +1,11 @@
+### create project
+
+
+POST http://localhost:3000/project/create HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{$dotenv TOKEN}}
+
+{
+"title" : "project1",
+"text" : "tozihat project 100000"
+}

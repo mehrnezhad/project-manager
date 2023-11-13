@@ -1,0 +1,18 @@
+### get user profile
+GET http://localhost:3000/user/profile HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{$dotenv TOKEN}}
+
+
+### update user profile
+POST http://localhost:3000/user/profile HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{$dotenv TOKEN}}
+
+{
+    "first_name" : "ali",
+    "last_name" : "zafari",
+    "skills" : ["programming" , "nodejs" , "mongodb"]
+}
+
+

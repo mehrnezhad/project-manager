@@ -4,10 +4,10 @@ Content-Type: application/json
 
 
 {
-    "email" : "zafarii@npco.net",
-    "username" : "mehrnezhadi",
+    "email" : "zafari@npco.net",
+    "username" : "ali",
     "password" : "123456",
-    "mobile" : "09125400840",
+    "mobile" : "09125400848",
     "confirm_password" : "123456"
 
 }
@@ -18,7 +18,7 @@ Content-Type: application/json
 Authorization: Bearer {{$dotenv TOKEN}}
 
 {
-    "username" : "mehrnezhadi",
+    "username" : "ali",
     "password" : "123456"
 
 }

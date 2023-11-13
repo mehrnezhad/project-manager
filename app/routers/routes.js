@@ -1,6 +1,6 @@
 import { Router } from "express";
 import authRouter from "./auth.routers.js";
-import userRouter from "./auth.routers.js";
+import userRouter from "./user.routers.js";
 import teamRouter from "./team.routers.js";
 import projectRouter from "./project.routers.js";
 
